@@ -6,13 +6,14 @@ A personal Lean library of mathematical proofs, definitions, and theorems, organ
 
 The library is organized into subject-based folders, including:
 
-- `algebra/`
 - `set_theory/`
+- `logic/`
+- `algebra/`
 - `analysis/`
 - `topology/`
 - `geometry/`
 - `number_theory/`
-- `logic/`
+- `discrete-mathematics/`
 - `combinatorics/`
 - `probability/`
 - `misc/`
