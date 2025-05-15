@@ -1,14 +1,31 @@
 -- set_theory.lean
 
-def twice (f : Nat -> Nat) (a : Nat) :=
-f (f a)
+inductive Weekday where
+| sunday    : Weekday
+| monday    : Weekday
+| tuesday   : Weekday
+| wednesday : Weekday
+| thursday  : Weekday
+| friday    : Weekday
+| saturday  : Weekday
 
-#eval println! twice (fun x => x + 2) 10
+open Weekday
 
-theorem twiceAdd2 (a: Nat) : twice (fun x => x + 2) a = a + 4 :=
--- True proof is by reflexivity. Lean "symbolically" reduces both sides of the equality until they are identical.
-rfl
+#check monday
 
-#eval twice (fun x => x + 2) 10
+
+-- Pattern matching
+
+def natOfWeek (d : Weekday) : Nat :=
+    match d with
+    | sunday    => 1
+    | monday    => 2
+    | tuesday   => 3
+    | wednesday => 4
+    | thursday  => 5
+    | friday    => 6
+    | saturday  => 7
+
+    #eval natOfWeek sunday
 
 -- continuing on the page https://lean-lang.org/documentation/tour/
