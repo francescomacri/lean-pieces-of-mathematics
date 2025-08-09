@@ -28,8 +28,11 @@ To use or contribute to this library:
    ```
    git clone https://github.com/francescomacri/lean-pieces-of-mathematics.git
    ```
+
 2. **Install Lean and Mathlib:**  
+
    Follow instructions at [Lean community website](https://leanprover-community.github.io/get_started.html).
+
 3. **Build the project:**
    ```
    cd lean-pieces-of-mathematics
