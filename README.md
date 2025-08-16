@@ -1,24 +1,23 @@
 # lean-pieces-of-mathematics
 
-A personal Lean library of mathematical proofs, definitions, and theorems, organized by subject. Inspired by [piecesofmathematics.com](https://www.piecesofmathematics.com), this project is both a study companion and a reference, using Lean’s formal verification to ensure rigor and clarity.
+This repository hosts formalizations of content presented on my blog [piecesofmathematics.com](https://www.piecesofmathematics.com), implemented in Lean.
 
 ## Structure
 
 The library is organized into subject-based folders, including:
 
-- `set_theory/`
+- `category_theory/`
 - `logic/`
+- `set-theory/`
 - `algebra/`
 - `analysis/`
-- `topology/`
 - `geometry/`
-- `number_theory/`
 - `discrete-mathematics/`
-- `combinatorics/`
-- `probability/`
-- `misc/`
+- `number-theory/`
+- `stochastics/`
+- `computational-mathematics/`
 
-Each folder contains Lean files (`.lean`) with related content, such as definitions, theorems, and proofs.
+Each folder contains Lean files (`.lean`).
 
 ## Getting Started
 
@@ -31,7 +30,7 @@ To use or contribute to this library:
 
 2. **Install Lean and Mathlib:**  
 
-   Follow instructions at [Lean community website](https://leanprover-community.github.io/get_started.html).
+   Follow instructions at [Lean](https://lean-lang.org).
 
 3. **Build the project:**
    ```
@@ -41,7 +40,7 @@ To use or contribute to this library:
 
 ## Dependencies and Attribution
 
-- This project uses [Lean](https://leanprover-community.github.io/) and depends on [mathlib](https://github.com/leanprover-community/mathlib), both distributed under the Apache License 2.0.
+- This project uses [Lean](https://lean-lang.org) and depends on [mathlib](https://github.com/leanprover-community/mathlib).
 - If you use or distribute this code, please retain the LICENSE file and attribution notices.
 
 ## Disclaimer
