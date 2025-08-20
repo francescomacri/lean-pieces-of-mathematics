@@ -2,7 +2,6 @@
 
 /-
   Commutative Laws in Logic
-  Author: Francesco Macrì
 
 This file proves the commutative equivalences for conjunction and disjunction:
   - p ∧ q ↔ q ∧ p
